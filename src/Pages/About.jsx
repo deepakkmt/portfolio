@@ -1,4 +1,5 @@
 import React from "react";
+import self from "../assets/self.jpeg";
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src="/src/assets/self.jpeg" 
+              src={self} 
               alt="Profile"
               className="w-72 h-72 object-cover rounded-2xl shadow-lg about-image"
             />

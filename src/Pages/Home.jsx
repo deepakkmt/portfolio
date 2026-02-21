@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import abc from '../assets/abc.jpeg'
 function Home() {
   return (
     
@@ -8,7 +9,7 @@ function Home() {
         
 
         <div className='col-12 col-md-4 home-second'>
-            <img src="/src/abc.jpeg" alt=""  className='imgg'/>
+            <img src={abc} alt="profile"  className='imgg'/>
         </div>
         <div className='col-12 col-md-8 home-first'>
          <h1 className='text-warning '>Hello !</h1>

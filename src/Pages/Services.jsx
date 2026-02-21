@@ -1,5 +1,9 @@
 import React from "react";
 import "../App.css";
+import frontend from "../assets/frontend.jpeg";
+import backend from "../assets/backend.png";
+import mongodb from "../assets/mongodb.jpg";
+import api from "../assets/api.webp";
 
 function Services() {
   return (
@@ -13,7 +17,7 @@ function Services() {
         <h2 className="text-center mt-2">Frontend</h2>
 
         <img
-          src="/src/assets/frontend.jpeg"
+          src={frontend}
           className="card-img-top"
           alt="Frontend"
           style={{ height: "150px", objectFit: "contain" }}
@@ -33,7 +37,7 @@ function Services() {
         <h2 className="text-center mt-2">Backend</h2>
 
         <img
-          src="/src/assets/backend.png"
+          src={backend}
           className="card-img-top"
           alt="Backend"
           style={{ height: "150px", objectFit: "contain" }}
@@ -53,7 +57,7 @@ function Services() {
         <h2 className="text-center mt-2">Database</h2>
 
         <img
-          src="/src/assets/mongodb.jpg"
+          src={mongodb}
           className="card-img-top"
           alt="Database"
           style={{ height: "150px", objectFit: "contain" }}
@@ -72,7 +76,7 @@ function Services() {
         <h2 className="text-center mt-2">Api integration</h2>
 
         <img
-          src="/src/assets/api.webp"
+          src={api}
           className="card-img-top"
           alt="Database"
           style={{ height: "150px", objectFit: "contain" }}

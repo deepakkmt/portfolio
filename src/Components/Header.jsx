@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
-
+import logo from "../assets/logo.png";
 function Header({
   scrollToHome,
   scrollToProject,
@@ -19,8 +19,8 @@ function Header({
           <div className="flex lg:flex-1">
             <button onClick={scrollToHome}>
               <img
-                src="/src/assets/logo.png"
-                alt=""
+                src={logo}
+                alt="logo"
                 className="h-8 w-8 header-logo"
               />
             </button>
