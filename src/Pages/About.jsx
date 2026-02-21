@@ -80,7 +80,7 @@ function About() {
         </div>
         <div className="mt-10 text-center">
           <a
-            href="/src/assets/Deepak kumawat (5).pdf"
+            href="/resume.pdf"
             download
             className="inline-block bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-600 transition duration-300"
           >
