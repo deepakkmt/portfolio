@@ -6,7 +6,7 @@ function About() {
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
-        <div className="about-heading">
+        <div className="about-heading ">
            <p className="text-center text-xl">Deepakkumawat7053@gmail.com</p>
           <h1 className=" about-me text-4xl font-bold text-center mb-10">
           About Me

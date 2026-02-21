@@ -2,12 +2,12 @@ import React from "react";
 import { useRef } from "react";
 import Header from "./components/Header";
 
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Services from "./pages/Services";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import FallingDivs from "./Components/falling";
+import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
+import Services from "./Pages/Services";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import FallingDivs from "./components/falling";
 
 function App() {
   const homeRef = useRef(null);
