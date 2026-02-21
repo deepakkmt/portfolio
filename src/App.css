@@ -1,0 +1,182 @@
+@import "tailwindcss"; 
+body{
+ background-color: rgb(17 24 39);
+
+}
+
+
+/* -------------------------------------------header-------------------------------------------- */
+/* mobile-menu */
+.mobile-menu a {
+  color: white;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+.mobile-menu a:hover {
+  color: #535bf2;
+}
+.header-links a{
+  text-decoration: none;
+}
+
+.header-links button:hover{
+  color: #09090a;
+  text-decoration: underline;
+  transform: scale(0.8);
+}
+
+.header-main{
+  
+  box-shadow: 0 4px 6px rgba(254, 252, 252, 0.3);
+}
+.header-logo{
+  transform: scale(1.8);
+}
+
+/* -----------------------------------------Home--------------------------------------------- */
+.home-first{
+  
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  /* transform: scale(1.5);    */
+}
+
+.imgg{
+  background: transparent;
+  border-radius: 70%;
+  /* box-shadow: 0 0 0 5px #646cff, 0 0 0 10px #535bf2; */
+  border: 10px solid #535bf2;
+
+}
+.home-main{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.home-main h1 span{
+  color: #646cff;
+}
+.home-para-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.home-para {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid rgb(255, 250, 250);
+  width: 0;
+  animation: typing 4s steps(30) infinite;
+   
+
+ 
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  40% { width: 34ch }
+  60% { width: 34ch }
+  100% { width: 0 }
+}
+
+@media (max-width: 500px) {
+  .home-para-container {
+    font-size: 14px;
+}
+.about-heading{
+  margin: 90px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+
+}
+}
+/* -----------------------------------------project---------------------------------- */
+
+.projects-container{
+  margin-top: 50px;
+
+}
+
+.projects-container h2{
+  color: rgb(252, 211, 77)
+;
+  
+}
+.projects-main-container h1{
+ color: rgb(252, 211, 77)
+}
+
+
+/* ------------------------------------services-----------------------------------------? */
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card-container h1{
+  color: rgb(252, 211, 77);
+
+}
+
+
+
+
+/* ----------------------------------------------about-----------------------------------------?  */
+.about-image {
+  border: 10px solid #535bf2;
+  border-radius: 50%;
+  /* box-shadow: 0 0 0 5px #646cff, 0 0 0 0 10px #535bf2; */
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.about-me{
+  color: rgb(252, 211, 77);
+}
+.about-heading{
+  margin: 90px 0;
+  display: flex;
+  
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+
+
+/* ----------------------------------------------------------------falling animation for divs--------------- */
+.animate-fall {
+  animation: fall linear infinite;
+}
+.falling-div {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #646cff;
+  border-radius: 50%;
+  opacity: 0.8;
+}
